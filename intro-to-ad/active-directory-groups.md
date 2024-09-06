@@ -113,3 +113,10 @@
   - Built-in groups offer pre-defined administrative roles
   - Custom groups provide flexibility for specific organizational needs
   - Changes to the environment can introduce new groups, demanding attention to security implications
+
+## Nested Group Membership in Active Directory (AD)
+
+- Users can gain privileges indirectly through nested groups (a group being a member of another group).
+- This can lead to accidental access rights that are hard to detect.
+- Tools like BloodHound help visualize and uncover these complex privilege chains.
+- Critical for both security professionals (finding vulnerabilities) and administrators (understanding their AD setup).
